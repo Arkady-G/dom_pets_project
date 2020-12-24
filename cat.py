@@ -12,3 +12,8 @@ class Cats:
 
     def getage(self):
         return self.age
+
+    def print_list(self):
+        print('Имя - {}'.format(self.name))
+        print('Пол - {}'.format(self.gender))
+        print('Возраст - {}\n'.format(self.age))
